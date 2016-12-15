@@ -1,9 +1,23 @@
-
-// Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
-
-// Variables
-@import "variables";
-
-// Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+/* JDIO Components */
+.jdio-login-container {
+  padding: 50px;
+  text-align: center;
+}
+.jdio-layout {
+  align-items: center;
+}
+.jdio-title {
+  background: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/gplaypattern.png');
+}
+.mdl-card__title h2 {
+  font-weight: 300;
+  color: #f44336;
+}
